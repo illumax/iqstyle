@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Giga&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+.navbar-brand
+    {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.container-fluid {
+  position: relative;
+}
+
+.iqstyle-logo {
+  font-family: 'Lexend Giga', sans-serif;
+  color: #ffffff;
+}
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 0.2rem;
+  margin-bottom: 2rem;
+}
+
+.column {
+  -ms-flex: 33%; /* IE 10 */
+  flex: 33%;
+  padding: 0 0.2rem;
+}
+
+.column img {
+  margin-top: 0.3rem;
+  vertical-align: middle;
+}
+
+.img-small {
+  width: 100%;
+}
+
+.info-block {
+  font-family: 'Lexend Giga', sans-serif;
+  height: 70vh;
+}
+
+h1.page-title {
+  font-size: 5rem;
+  color: #6c757d;
+  font-family: 'Lexend Giga', sans-serif;
+}
